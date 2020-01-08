@@ -1,0 +1,33 @@
+{
+  "name": "sanityci4si",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "anliner1992 <anliner@webriq.services>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^0.147.6",
+    "@sanity/cli": "^0.147.3",
+    "@sanity/components": "^0.147.6",
+    "@sanity/core": "^0.147.6",
+    "@sanity/default-layout": "^0.147.6",
+    "@sanity/default-login": "^0.147.0",
+    "@sanity/desk-tool": "^0.147.7",
+    "@sanity/vision": "^0.147.6",
+    "markdown": "^0.5.0",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "sanity-plugin-markdown": "^1.0.1",
+    "svgo": "^1.3.0"
+  },
+  "devDependencies": {}
+}
